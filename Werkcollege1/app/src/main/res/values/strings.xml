@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Werkcollege1</string>
     <string name="display_number">0</string>
+    <string name="lager">Lager</string>
+    <string name="gelijk">Gelijk</string>
+    <string name="hoger">Hoger</string>
+    <string name="score">Score: 0</string>
 </resources>
