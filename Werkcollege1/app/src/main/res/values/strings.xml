@@ -5,4 +5,5 @@
     <string name="gelijk">Gelijk</string>
     <string name="hoger">Hoger</string>
     <string name="score">Score: 0</string>
+    <string name="toast_sorry">Je bent verloren, probeer opnieuw</string>
 </resources>

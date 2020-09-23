@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     public Logic logic;
@@ -66,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
         reloadGUI();
     }
 
-    private void lost () {
+    private void lost() {
+        Toast.makeText(this, getText(R.string.toast_sorry), Toast.LENGTH_LONG).show();
         logic.resetScore();
         reloadGUI();
     }
